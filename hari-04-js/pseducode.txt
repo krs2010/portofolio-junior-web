@@ -1,0 +1,43 @@
+penentu bilangan ganjil/genap dan positif/negatif/nol
+0.let nilai, status1, status2
+1. input nilai
+2. if (nilai % 2)===0 {status1="genap"} else {status1=ganjil}
+3. cetak (status1)
+4. if(nilai > 0) {status2="positif"} else
+    if(nilai <0) {status2="negatif"} else {status2="nol"}
+5. cetak (status2)
+6. end
+
+tarif parkir: 2 jam pertama Rp3.000, tiap jam berikutnya Rp2.000, maksimum Rp15.000 per hari.
+0. start, let durasijam, sisajam, totalhari, bayar
+1. input
+2. sisajam=durasjam%24
+3. totalhari=(durasijam-sisahari)/24
+4. if(sisajam<=2){bayar=3000}else{bayar=3000+(sisajam-2)*2000}
+5. if(bayar>=15000){bayar=15000}
+6. bayar=totalhari*15000+bayar
+7. cetak (bayar)
+8. end
+
+
+kalkulator sederhana dengan switch (+, -, *, /) dan penanganan pembagian dengan nnol.
+0. start
+1. output("menu pilihan(+, -, *, /)")
+2. input (nilai1, nilai2, nilai3)
+3. switch ()
+    case 1 : hasil=nilai1+nilai2
+    case 2 : hasil=nilai1-nilai2
+    case 3 : hasil=nilai1*nilai2
+    case 4 : if(niali2===0){hasil="tidak terdefiisi"}else{hasil=nilai1/nilai2}
+4. cetak(hasil)
+5. end
+
+penentu kalkulator BMI (berat / tinggi * tinggi): kurang (dibawah 18,5), normal (18,5-24,9), lebih (25-29,9), diatas (30 ke atas)
+0. start
+1. input (barat, tinggi)
+2. BMI berat / (tinggi * tinggi)
+3. if(BMI<<18,5){status="kranng"}else
+    if(BMI<=24,9){status="normal"}else
+    if(BMI<=29,9){status="lebih"}else{status="obesitas"}
+4. output (status2)
+5. end

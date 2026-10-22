@@ -146,7 +146,7 @@ h2 {
   place-items: center;
   min-height: 70vh;
   text-align: center;
-  background: linear-grardient(135deg, var(--warna-utama), #6610f2);
+  background: linear-gradient(135deg, var(--warna-utama), #6610f2);
   color: #fff;
 }
 .hero h1 {
