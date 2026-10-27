@@ -1,0 +1,78 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 32px 16px;
+  background-color: #f8fafc; /* Latar belakang abu-abu sangat muda */
+  color: #1e293b; /* Teks utama biru gelap */
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Bayangan halus sebagai ganti garis border */
+}
+
+.layar {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #3b82f6; /* Warna aksen biru cerah */
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3b82f6; /* Warna aksen */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease; /* Efek transisi halus saat di-hover */
+}
+
+button:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px); /* Efek tombol terangkat sedikit */
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  font-size: 16px;
+  font-family: inherit;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  color: #1e293b;
+  transition: border-color 0.2s ease;
+  resize: vertical;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6; /* Border menjadi biru cerah saat diklik */
+}
+
+.keterangan {
+  font-size: 14px;
+  opacity: 0.65; /* Menggunakan transparansi agar tidak perlu menambah warna baru */
+  margin-top: 8px;
+}

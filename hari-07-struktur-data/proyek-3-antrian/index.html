@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulator Antrean dan Riwayat - Klinik</title>
+  <link rel="stylesheet" href="css/stylecoba.css">
+</head>
+<body>
+  <main>
+    <h1>Simulator Antrean Woiii</h1>
+    <p>Layar antrean pasien dan editor catatan klinik.</p>
+
+    <section aria-labelledby="judul-antrean">
+      <h2 id="judul-antrean">Antrean Sembako</h2>
+      <p class="layar">
+        Sedang dipanggil: <strong id="dipanggil">-</strong>
+      </p>
+      <p>Menunggu: <span id="jumlah">0</span> pasien</p>
+      <p>
+        <button id="ambil" type="button">Ambil Nomor</button>
+        <button id="panggil" type="button">Panggil Berikutnya</button>
+        <button id="reset" type="button">Reset</button>
+      </p>
+      <h3>Daftar yang menunggu</h3>
+      <ol id="daftar"></ol>
+      <h3>Riwayat 5 nomor terakhir yang dipanggil</h3>
+      <ol id="riwayat-panggilan"></ol>
+    </section>
+
+    <section aria-labelledby="judul-editor">
+      <h2 id="judul-editor">Editor Catatan</h2>
+      <label for="editor">Catatan pasien:</label>
+      <textarea id="editor" rows="6"></textarea>
+      <p>
+        <button id="undo" type="button" disabled>Undo</button>
+        <button id="redo" type="button" disabled>Redo</button>
+        <span id="info-riwayat"></span>
+      </p>
+      <p class="keterangan">Catatan tersimpan otomatis di browser ini.</p>
+    </section>
+  </main>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

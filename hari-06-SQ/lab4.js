@@ -1,4 +1,4 @@
-//Uji dengan enqueue tiga elemen, dequeue hingga kosong, dan dequeue pada queue kosong
+// Uji dengan enqueue tiga elemen, dequeue hingga kosong, dan dequeue pada queue kosong
 import { Queue } from './structures.js';
 
 const queue = new Queue();
