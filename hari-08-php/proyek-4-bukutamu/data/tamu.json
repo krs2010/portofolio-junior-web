@@ -1,0 +1,23 @@
+[
+    {
+        "nama": "Supriyadi",
+        "email": "supriyadi123@gmail.com",
+        "pesan": "cooyyyy",
+        "id": 1,
+        "waktu": "2026-10-28 09:51:13"
+    },
+    {
+        "nama": "Suliyem",
+        "email": "suliyem123@gmail.com",
+        "pesan": "halo dek",
+        "id": 2,
+        "waktu": "2026-10-28 10:24:47"
+    },
+    {
+        "nama": "Sajiem",
+        "email": "sajiem123@gmail.com",
+        "pesan": "siap komandan",
+        "id": 3,
+        "waktu": "2026-10-28 12:25:18"
+    }
+]

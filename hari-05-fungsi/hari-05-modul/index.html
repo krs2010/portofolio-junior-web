@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 4 - Modul ES</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 2rem;
+        background: #f3f4f6;
+      }
+      main {
+        max-width: 480px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 1.25rem;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      }
+      label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 0.3rem;
+      }
+      input {
+        width: 100%;
+        padding: 0.55rem 0.7rem;
+        font-size: 1rem;
+        border: 1px solid #9ca3af;
+        border-radius: 8px;
+        box-sizing: border-box;
+      }
+      button {
+        margin-top: 0.75rem;
+        width: 100%;
+        padding: 0.65rem 0;
+        font-size: 1rem;
+        border: 0;
+        border-radius: 8px;
+        background: #0d6efd;
+        color: #fff;
+        cursor: pointer;
+      }
+      dl {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.3rem 1rem;
+        margin: 1rem 0 0;
+      }
+      dt {
+        font-weight: 600;
+      }
+      dd {
+        margin: 0;
+      }
+      #pesan {
+        color: #dc2626;
+        min-height: 1.2rem;
+        margin: 0.5rem 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Statistik Nilai</h1>
+      <label for="input-nilai">Daftar nilai (pisahkan dengan koma)</label>
+      <input
+        id="input-nilai"
+        type="text"
+        value="80, 65, 90, 72"
+        placeholder="contoh: 80, 65, 90"
+      />
+      <button id="hitung" type="button">Hitung</button>
+      <p id="pesan" aria-live="polite"></p>
+      <dl>
+        <dt>Jumlah nilai</dt>
+        <dd id="jumlah">-</dd>
+        <dt>Rata-rata</dt>
+        <dd id="rata-rata">-</dd>
+        <dt>Tertinggi</dt>
+        <dd id="tertinggi">-</dd>
+        <dt>Terendah</dt>
+        <dd id="terendah">-</dd>
+      </dl>
+    </main>
+    <script type="module" src="js/apps.js"></script>
+  </body>
+</html>
